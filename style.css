@@ -1,25 +1,25 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* -----------------------------------------------header-------------------------------------------------------- */
 body{
     background-color: rgb(19, 19, 19);
 }
 .ulLista{
-    font-family: "Chakra Petch", sans-serif; /* fonte do Menu*/
+    font-family: "Poppins", sans-serif; /* fonte do SubMenu*/
 }
 .lista1{
-    font-family: "Chakra Petch", sans-serif; /* fonte do SubMenu*/
+    cursor: pointer;
+    font-family: "Poppins", sans-serif; /* fonte do Menu*/
 }
 .portfolio{
-    font-family: "Chakra Petch", sans-serif; /* fonte PORTFOLIO*/
+    font-family: "Poppins", sans-serif; /* fonte PORTFOLIO*/
     font-size: 25px;
 }
 .modeSite{
     margin-right: 40px;
 }
 header{
-    color: #00e1ff;
+    color: #ffffff;
     width: 100%;
     height: 60px;
     display: flex;
@@ -37,7 +37,7 @@ header{
 }
 .dropmenu li a {
     text-decoration: none;
-    color: #00e1ff;
+    color: #956bf8;
     display: block;
     padding: 0;
 }
@@ -75,9 +75,7 @@ header{
     margin-bottom: 10px;
 }
 hr{
-    margin: 0;
-    border-color: #00e1ff;
-    position: relative;
+    border-color: #5f1bff;
 }
 /* -----------------------------------------------section's-------------------------------------------------------- */
 /* -----------------------------------------------section SOBRE MIM------------------------------------------------ */
@@ -85,7 +83,6 @@ hr{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: solid 1px white;
     width: 100%;
     height: 25vw;
 }
@@ -95,8 +92,14 @@ hr{
     width: 20%;
     height: 15vw;
 }
+.maisInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 8vw;
+}
 .apresentacao{
-    border: solid 1px white;
     display: flex ;
     justify-content: center;
     flex-direction: column;
@@ -104,63 +107,109 @@ hr{
     width: 25%;
     height: 18vw;
 }
-.maisInfo{
-    border: solid 1px white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 100%;
-    height: 8vw;
-}
 .meuNome{
     margin-top: 1vw;
-    border: solid 1px white;
-    width: 67%;
-    height: 5vw;
+    width: 75%;
+    height: 6vw;
 }
 .descricao{
-    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
     color: white;
 }
 .descricao::after{
     content: ":)";
     margin-left: 6px;
 }
+.vaiquevai{
+    color: #530afd;
+}
+
 .profissao{
+    font-family: "Poppins", sans-serif;
     color: white;
-    border: solid 1px white;
     width: 40%;
     height: 1.5vw;
 }
 .baixarCV{
-    border: solid 1px white;
     width: 40%;
     height: 4vw;
 }
-/* -----------------------------------------------section SOBRE MIM 2------------------------------------------------ */
+.botaoBaixarCV{
+    border-color: #23007400;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    background-color: #530afd;
+    color: #ffffff;
+    border-radius: 15px;
+    width: 90%;
+    height: 90%;
+}
+.botaoBaixarCV:hover{
+    border-color: #00000000;
+    background-color: #230074;
+}
+/* -----------------------------------------------section SOBRE MIM PARTE 2------------------------------------------------ */
 .sectionSobreMim2{
     display: flex;
     justify-content: center;
-    border: solid 1px white;
     width: 100%;
-    height: 19vw;
+    height: 25vw;
 }
 .sobreMim{
+
     flex-direction: column;
     display: flex;
     align-items: center;
     width: 70%;
-    height: 18vw;
-    border: solid 1px white;
+    height: 19vw;
 }
 .tituloSobreMim{
-    width: 60%;
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    color: white;
+    width: 9%;
     height: 2.5vw;
-    border: solid 1px white;
 }
 .textoSobreMim{
-    width: 100%;
-    height: 15vw;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.527);
+    width: 90%;
+    height: 16vw;
+}
+/* -----------------------------------------------section SOBRE MIM PARTE 2------------------------------------------------ */
+.sectionHabilidades{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     border: solid 1px white;
+    width: 100%;
+    height: 25vw;
+}
+.habilidades{
+    color: white;
+    width: 6.5%;
+    height: 30px;
+    border: solid 1px white;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
+.habilidadesImg{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 80%;
+    height: 16vw;
+    border: solid 1px white;
+
+}
+.hab{
+    border: solid 1px white;
+    width: 20%;
+    height: 100%;
 }
 
