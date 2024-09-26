@@ -17,6 +17,9 @@ function escrever(texto){
             )
         }else{
             texto.classList.add("sem-after") // tirando a carinha
+            setTimeout(() => {
+                escrever (texto)
+            },5000)
         }
     }
 
@@ -36,6 +39,14 @@ function escreverNome(texto){
             setTimeout(() =>
                 digitar (indiceInicial + 1),75
             )
+        }else{
+            // Após digitar, oculta o texto e reinia após 3 segundos
+            setTimeout(() => {
+                texto.style.display = "none" // Oculta o texto
+                setTimeout(() => {
+                    escreverNome(texto) // chama a função novamente
+                },1300)
+            },3700)
         }
     }
     digitar(0); // Começar no índice 0

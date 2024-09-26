@@ -121,8 +121,18 @@ hr{
     content: ":)";
     margin-left: 6px;
 }
-.vaiquevai{
+.descricao.sem-after::after{
+    content: "";
+}
+.nome{
+    display: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
     color: #530afd;
+}
+.nome::after{
+    content: ":)";
+    margin-left: 10px;
 }
 
 .profissao{
@@ -185,7 +195,6 @@ hr{
     display: flex;
     align-items: center;
     flex-direction: column;
-    border: solid 1px white;
     width: 100%;
     height: 25vw;
 }
@@ -193,7 +202,6 @@ hr{
     color: white;
     width: 6.5%;
     height: 30px;
-    border: solid 1px white;
     font-family: "Poppins", sans-serif;
     font-size: 20px;
 }
@@ -204,12 +212,49 @@ hr{
     flex-direction: row;
     width: 80%;
     height: 16vw;
-    border: solid 1px white;
-
 }
 .hab{
-    border: solid 1px white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     width: 20%;
     height: 100%;
 }
-
+.pImg{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.html{
+    background-image: url("html\ roxoo.png");
+    background-repeat: no-repeat;
+    background-size: 408px;
+    background-position: -55px -40px;
+    width: 100%;
+    height: 100%;
+    
+}
+.css{
+    background-image: url("css\ roxo.png");
+    background-repeat: no-repeat;
+    background-size: 126px;
+    background-position: 90px 1px;
+    width: 100%;
+    height: 100%;
+}
+.js{
+    background-image: url("js\ roxo.png");
+    background-repeat: no-repeat;
+    background-size: 286px;
+    background-position: 11px -33px;
+    width: 100%;
+    height: 100%;
+}
+.java{
+    background-image: url("java\ roxo.png");
+    background-repeat: no-repeat;
+    background-size: 132px;
+    background-position: 85px 0px;
+    width: 100%;
+    height: 100%;
+}
