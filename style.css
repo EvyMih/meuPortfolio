@@ -190,18 +190,16 @@ hr{
     width: 90%;
     height: 16vw;
 }
-/* -----------------------------------------------section SOBRE MIM PARTE 2------------------------------------------------ */
+/* -----------------------------------------------section HABILIDADES------------------------------------------------ */
 .sectionHabilidades{
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 100%;
-    height: 25vw;
+    height: 26vw;
 }
 .habilidades{
     color: white;
-    width: 6.5%;
-    height: 30px;
     font-family: "Poppins", sans-serif;
     font-size: 20px;
 }
@@ -231,7 +229,7 @@ hr{
     background-size: 408px;
     background-position: -55px -40px;
     width: 100%;
-    height: 100%;
+    height: 45%;
     
 }
 .css{
@@ -240,7 +238,7 @@ hr{
     background-size: 126px;
     background-position: 90px 1px;
     width: 100%;
-    height: 100%;
+    height: 45%;
 }
 .js{
     background-image: url("js\ roxo.png");
@@ -248,7 +246,7 @@ hr{
     background-size: 286px;
     background-position: 11px -33px;
     width: 100%;
-    height: 100%;
+    height: 45%;
 }
 .java{
     background-image: url("java\ roxo.png");
@@ -256,5 +254,106 @@ hr{
     background-size: 132px;
     background-position: 85px 0px;
     width: 100%;
+    height: 45%;
+}
+.estrelas{
+    color: #956bf8;
+    font-size: 20px;
+}
+/* -----------------------------------------------section CONTATOS------------------------------------------------ */
+.sectionContato{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 26vw;
+}
+.contato{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
+.contatoImg{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 80%;
+    height: 16vw;
+}
+.ctt{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
     height: 100%;
+}
+.imgEmail{
+    border-radius: 100%;
+    border: solid 2px;
+    border-color: #6627fc4d;
+    background-image: url("envelope\ roxo.png");
+    background-repeat: no-repeat;
+    background-size: 56px;
+    background-position: 22px 14px;
+    width: 33%;
+    height: 27%;
+}
+.imgTelefone{
+    border-radius: 100%;
+    border: solid 2px;
+    border-color: #6627fc4d;
+    background-image: url("phone\ roxo.png");
+    background-repeat: no-repeat;
+    background-size: 56px;
+    background-position: 22px 15px;
+    width: 33%;
+    height: 27%;
+}
+.imgLink{
+    border-radius: 100%;
+    border: solid 2px;
+    border-color: #6627fc4d;
+    background-image: url("linkedin\ roxo.png");
+    background-repeat: no-repeat;
+    background-size: 56px;
+    background-position: 24px 12px;
+    width: 33%;
+    height: 27%;
+}
+.imgGit{
+    border-radius: 100%;
+    border: solid 2px;
+    border-color: #6627fc4d;
+    background-image: url("github\ roxo.png");
+    background-repeat: no-repeat;
+    background-size: 56px;
+    background-position: 22px 16px;
+    width: 33%;
+    height: 27%;
+}
+.pImgCtt{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.email{
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    color: white;
+}
+.telefone{
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    color: white;
+}
+.link{
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    color: white;
+}
+.git{
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    color: white;
 }
