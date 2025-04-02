@@ -46,17 +46,7 @@ setTimeout(() => {
     escreverNome(nome)
 },1200)
 
-//função expandir habilidades 
-let habilidades = document.getElementById("hab")
-let contatos = document.getElementById("ctt")
 
-habilidades.addEventListener('mouseover', () => {
-    habilidades.style.transition 
-});
-  
-habilidades.addEventListener('mouseout', () => {
-    habilidades.style.transition 
-});
 
 
 
