@@ -88,15 +88,100 @@
 .botaoBaixarCV:hover {
     background-color: var(--secondary-hover);
 }
-
-@media (max-width: 1920px) {
+@media (max-width: 2440px) {
 
     .minhaFoto {
-        background-size: 270px;
+        background-size: 419px;
         background-position: -8px -47px;
     }
 }
 
+@media (max-width: 2250px) {
+
+    .minhaFoto {
+        background-size: 371px;
+        background-position: -8px -47px;
+    }
+}
+@media (max-width: 2050px) {
+
+    .minhaFoto {
+        background-size: 340px;
+        background-position: -8px -47px;
+    }
+}
+@media (max-width: 1920px) {
+
+    .minhaFoto {
+        background-size: 313px;
+        background-position: -8px -47px;
+    }
+}
+
+@media (max-width: 1700px) {
+
+    .minhaFoto {
+        background-size: 275px;
+        background-position: -8px -47px;
+    }
+}
+
+@media (max-width: 1500px) {
+
+    .minhaFoto {
+        background-size: 230px;
+        background-position: -8px -47px;
+    }
+}
+
+@media (max-width: 1300px) {
+
+    .minhaFoto {
+        background-size: 199px;
+        background-position: -8px -47px;
+    }
+}
+
+@media (max-width: 1150px) {
+
+    .minhaFoto {
+        background-size: 167px;
+        background-position: -8px -28px
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .minhaFoto {
+        width: 200px;
+        height: 200px;
+        background-size: 210px;
+        background-position: -8px -28px
+    }
+}
+
+@media (max-width: 920px) {
+
+    .sectionSobreMim {
+        gap: 30px;
+        padding: 0px 0px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 500px;
+    }
+    .profissao {
+        margin-top: 25px;
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 640px) {
+    .descricao {
+        font-size: 14px;
+    }
+}
 
 @media (max-width: 480px) {
 
@@ -163,6 +248,19 @@
     color: var(--text);
     width: 90%;
     height: 16vw;
+}
+@media (max-width: 1000px) {
+    .sectionSobreMim2 {
+        margin-top: 50px;
+        height: 440px;
+    }
+}
+
+@media (max-width: 720px) {
+    .sectionSobreMim2 {
+        margin-top: 50px;
+        height: 640px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -314,6 +412,83 @@
     height: 45%;
 }
 
+@media (max-width: 1460px) {
+    .sectionHabilidades {
+        height: 960px;
+    }
+
+    .habilidadesImg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 70%;
+        height: 800px;
+    }
+
+    .html {
+        background-position: -15px -10px;
+        width: 100px;
+        height: 2000px;
+    }
+    .css {
+        background-position: -15px -10px;
+        width: 100px;
+        height: 2000px;
+    }
+    .js {
+        background-position: -15px -10px;
+        width: 100px;
+        height: 2000px;
+    }
+    .java {
+        background-position: -15px -10px;
+        width: 100px;
+        height: 2000px;
+    }
+    .postman {
+        background-position: 16px -5px;
+        width: 100px;
+        height: 2000px;
+    }
+    .node {
+        background-position: 5px 1px;
+        width: 100px;
+        height: 2000px;
+    }
+    .docker {
+        background-position: -4px -10px;
+        width: 100px;
+        height: 2000px;
+    }
+    .figma {
+        background-position: -15px -10px;
+        width: 100px;
+        height: 2000px;
+    }
+    .bootstrap {
+        background-position: 1px -10px;
+        width: 100px;
+        height: 2000px;
+    }
+    .dbeaver {
+        background-position: -15px -10px;
+        width: 100px;
+        height: 2000px;
+    }
+    .react {
+        background-position: -15px -10px;
+        width: 100px;
+        height: 2000px;
+    }
+
+}
+@media (max-width: 720px) {
+    .sectionHabilidades {
+        height: 1060px;
+    }
+
+}
 @media (max-width: 480px) {
     .sectionHabilidades {
         height: 960px;
@@ -329,68 +504,7 @@
     .habilidades {
         font-size: 18px;
     }
-    .hab {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        width: 200%;
-        height: 100%;
-    }
-    .html {
-        background-position: 31px -10px;
-        width: 77%;
-        height: 2000px;
-    }
-    .css {
-        background-position: 31px -10px;
-        width: 77%;
-        height: 2000px;
-    }
-    .js {
-        background-position: 31px -10px;
-        width: 77%;
-        height: 2000px;
-    }
-    .java {
-        background-position: 31px -10px;
-        width: 77%;
-        height: 2000px;
-    }
-    .postman {
-        background-position: 59px -5px;
-        width: 77%;
-        height: 2000px;
-    }
-    .node {
-        background-position: 45px 1px;
-        width: 77%;
-        height: 2000px;
-    }
-    .docker {
-        background-position: 41px -10px;
-        width: 77%;
-        height: 2000px;
-    }
-    .figma {
-        background-position: 31px -10px;
-        width: 77%;
-        height: 2000px;
-    }
-    .bootstrap {
-        background-position: 46px -10px;
-        width: 77%;
-        height: 2000px;
-    }
-    .dbeaver {
-        background-position: 31px -10px;
-        width: 77%;
-        height: 2000px;
-    }
-    .react {
-        background-position: 31px -10px;
-        width: 77%;
-        height: 2000px;
-    }
+    
 }
 
 /* -----------------------------------------------section CONTATOS------------------------------------------------ */
@@ -447,6 +561,23 @@
 .git {
     font-size: 13px;
     color: var(--text);
+}
+@media (max-width: 720px) {
+    .sectionContato {
+        height: 1000px;
+    }
+    .contato {
+        color: var(--primary);
+        font-size: 18px;
+    }
+    .contatoImg {
+        gap: 120px;
+        align-items: center;
+        flex-direction: column;
+    }
+    .telefone {
+        width: 111px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -532,6 +663,22 @@
     text-decoration: none;
 }
 
+@media (max-width: 1000px) {
+    .galeria {
+        width: 100%;
+        height: 2000px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+    .fileira {
+        gap: 60px;
+        flex-direction: column;
+    }
+
+}
 
 @media (max-width: 480px) {
     .galeria {
@@ -576,6 +723,16 @@
 .certificado {
     font-size: 20px;
     color: var(--primary);
+}
+@media (max-width: 1000px) {
+    .certificados {
+        height: 1200px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
 }
 
 @media (max-width: 480px) {

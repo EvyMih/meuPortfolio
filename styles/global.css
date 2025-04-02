@@ -117,3 +117,9 @@ header{
         font-size: 12px;
     }
 }
+
+@media (max-width: 640px) {
+    .portfolio{
+        display: none;
+    }
+}
