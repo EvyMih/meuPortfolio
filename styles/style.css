@@ -666,7 +666,7 @@
 @media (max-width: 1000px) {
     .galeria {
         width: 100%;
-        height: 2000px;
+        height: 2500px;
         justify-content: center;
         align-items: center;
         display: flex;
@@ -683,7 +683,7 @@
 @media (max-width: 480px) {
     .galeria {
         width: 100%;
-        height: 1900px;
+        height: 2500px;
         justify-content: center;
         align-items: center;
         display: flex;
