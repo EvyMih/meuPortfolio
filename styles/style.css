@@ -337,57 +337,57 @@
         height: 100%;
     }
     .html {
-        background-position: 47px -10px;
+        background-position: 31px -10px;
         width: 77%;
         height: 2000px;
     }
     .css {
-        background-position: 47px -10px;
+        background-position: 31px -10px;
         width: 77%;
         height: 2000px;
     }
     .js {
-        background-position: 47px -10px;
+        background-position: 31px -10px;
         width: 77%;
         height: 2000px;
     }
     .java {
-        background-position: 47px -10px;
+        background-position: 31px -10px;
         width: 77%;
         height: 2000px;
     }
     .postman {
-        background-position: 72px -5px;
+        background-position: 59px -5px;
         width: 77%;
         height: 2000px;
     }
     .node {
-        background-position: 58px 1px;
+        background-position: 45px 1px;
         width: 77%;
         height: 2000px;
     }
     .docker {
-        background-position: 52px -10px;
+        background-position: 41px -10px;
         width: 77%;
         height: 2000px;
     }
     .figma {
-        background-position: 47px -10px;
+        background-position: 31px -10px;
         width: 77%;
         height: 2000px;
     }
     .bootstrap {
-        background-position: 62px -10px;
+        background-position: 46px -10px;
         width: 77%;
         height: 2000px;
     }
     .dbeaver {
-        background-position: 47px -10px;
+        background-position: 31px -10px;
         width: 77%;
         height: 2000px;
     }
     .react {
-        background-position: 47px -10px;
+        background-position: 31px -10px;
         width: 77%;
         height: 2000px;
     }
@@ -451,7 +451,7 @@
 
 @media (max-width: 480px) {
     .sectionContato {
-        height: 800px;
+        height: 700px;
     }
     .contato {
         color: var(--primary);
@@ -536,7 +536,7 @@
 @media (max-width: 480px) {
     .galeria {
         width: 100%;
-        height: 2000px;
+        height: 1900px;
         justify-content: center;
         align-items: center;
         display: flex;
