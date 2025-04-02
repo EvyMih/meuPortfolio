@@ -98,21 +98,21 @@
 }
 
 
-@media (max-width: 320px) {
+@media (max-width: 480px) {
 
     .sectionSobreMim {
         padding: 0px 0px;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        height: 150vw;
+        height: 120vw;
     }
 
     .minhaFoto {
-        background-size: 210px;
-        background-position: -19px -43px;
-        width: 170px;
-        height: 60vw;
+        background-size: 239px;
+        background-position: -9px -43px;
+        width: 225px;
+        height: 50vw;
         margin-bottom: 40px;
     }
 
@@ -165,10 +165,10 @@
     height: 16vw;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 480px) {
     .sectionSobreMim2 {
         margin-top: 50px;
-        height: 940px;
+        height: 640px;
     }
 
     .tituloSobreMim {
@@ -314,7 +314,7 @@
     height: 45%;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 480px) {
     .sectionHabilidades {
         height: 960px;
     }
@@ -337,46 +337,57 @@
         height: 100%;
     }
     .html {
+        background-position: 47px -10px;
         width: 77%;
         height: 2000px;
     }
     .css {
+        background-position: 47px -10px;
         width: 77%;
         height: 2000px;
     }
     .js {
+        background-position: 47px -10px;
         width: 77%;
         height: 2000px;
     }
     .java {
+        background-position: 47px -10px;
         width: 77%;
         height: 2000px;
     }
     .postman {
+        background-position: 72px -5px;
         width: 77%;
         height: 2000px;
     }
     .node {
+        background-position: 58px 1px;
         width: 77%;
         height: 2000px;
     }
     .docker {
+        background-position: 52px -10px;
         width: 77%;
         height: 2000px;
     }
     .figma {
+        background-position: 47px -10px;
         width: 77%;
         height: 2000px;
     }
     .bootstrap {
+        background-position: 62px -10px;
         width: 77%;
         height: 2000px;
     }
     .dbeaver {
+        background-position: 47px -10px;
         width: 77%;
         height: 2000px;
     }
     .react {
+        background-position: 47px -10px;
         width: 77%;
         height: 2000px;
     }
@@ -438,7 +449,7 @@
     color: var(--text);
 }
 
-@media (max-width: 320px) {
+@media (max-width: 480px) {
     .sectionContato {
         height: 800px;
     }
@@ -522,10 +533,10 @@
 }
 
 
-@media (max-width: 320px) {
+@media (max-width: 480px) {
     .galeria {
         width: 100%;
-        height: 1700px;
+        height: 2000px;
         justify-content: center;
         align-items: center;
         display: flex;
@@ -536,12 +547,7 @@
         gap: 60px;
         flex-direction: column;
     }
-    .item img {
-        width: 240px;
-        height: 150px;
-    }
     .item p {
-        width: 240px;
         font-size: 14px;
         color: var(--text);
     }
@@ -572,9 +578,9 @@
     color: var(--primary);
 }
 
-@media (max-width: 320px) {
+@media (max-width: 480px) {
     .certificados {
-        height: 1000px;
+        height: 1200px;
         justify-content: center;
         align-items: center;
         display: flex;
