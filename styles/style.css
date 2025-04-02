@@ -1,12 +1,13 @@
 /* -----------------------------------------------section SOBRE MIM------------------------------------------------ */
-.sectionSobreMim{
+.sectionSobreMim {
     padding: 0px 190px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 30vw;
 }
-.minhaFoto{
+
+.minhaFoto {
     margin-left: 3vw;
     background-image: url("../assets/img\ evy.png");
     background-repeat: no-repeat;
@@ -16,66 +17,75 @@
     width: 20%;
     height: 15vw;
 }
-.maisInfo{
-    gap: 10px;
+
+.maisInfo {
+    gap: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     width: 100%;
     height: 8vw;
 }
-.apresentacao{
-    display: flex ;
+
+.apresentacao {
+    display: flex;
     justify-content: center;
     flex-direction: column;
 
 }
-.meuNome{
 
+.meuNome {
     height: 6vw;
 }
-.descricao{
+
+.descricao {
     font-size: 25px;
     color: var(--text);
 }
-.descricao::after{
+
+.descricao::after {
     content: ":)";
     margin-left: 6px;
 }
-.descricao.sem-after::after{
+
+.descricao.sem-after::after {
     content: "";
 }
-.nome{
 
+.nome {
     font-size: 30px;
     color: var(--primary);
 }
-.nome::after{
+
+.nome::after {
     content: ":)";
     margin-left: 10px;
 }
 
-.profissao{
+.profissao {
     margin-top: 20px;
     color: var(--text);
 
     height: 1.5vw;
 }
-.baixarCV{
+
+.baixarCV {
 
     height: 4vw;
 }
-.botaoBaixarCV{
+
+.botaoBaixarCV {
+    padding: 10px 20px;
+    text-decoration: none;
     border-color: #23007400;
     cursor: pointer;
     font-size: 17px;
     background-color: var(--secondary);
     color: var(--text);
     border-radius: 15px;
-    width: 90%;
-    height: 90%;
 }
-.botaoBaixarCV:hover{
+
+.botaoBaixarCV:hover {
     background-color: var(--secondary-hover);
 }
 
@@ -88,39 +98,65 @@
 }
 
 
-@media (max-width: 480px) {
-    .minhaFoto {
-        width: 60%;
+@media (max-width: 320px) {
+
+    .sectionSobreMim {
+        padding: 0px 0px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 150vw;
     }
 
-    .descricao, .nome {
-        font-size: 20px;
+    .minhaFoto {
+        background-size: 210px;
+        background-position: -19px -43px;
+        width: 170px;
+        height: 60vw;
+        margin-bottom: 40px;
+    }
+
+    .descricao {
+        font-size: 14px;
+    }
+
+    .nome {
+        font-size: 18px;
     }
 
     .botaoBaixarCV {
+        font-size: 12px;
+    }
+
+    .profissao {
+        margin-top: 25px;
+        margin-bottom: 20px;
         font-size: 14px;
     }
 }
 
 /* -----------------------------------------------section SOBRE MIM PARTE 2------------------------------------------------ */
-.sectionSobreMim2{
+.sectionSobreMim2 {
     display: flex;
     justify-content: center;
     width: 100%;
     height: 30vw;
 }
-.sobreMim{
+
+.sobreMim {
     flex-direction: column;
     display: flex;
     align-items: center;
     width: 70%;
     height: 19vw;
 }
-.tituloSobreMim{
+
+.tituloSobreMim {
     font-size: 22px;
     color: var(--primary);
 }
-.textoSobreMim{
+
+.textoSobreMim {
     margin-top: 30px;
     text-align: justify;
     font-size: 16px;
@@ -128,8 +164,26 @@
     width: 90%;
     height: 16vw;
 }
+
+@media (max-width: 320px) {
+    .sectionSobreMim2 {
+        margin-top: 50px;
+        height: 940px;
+    }
+
+    .tituloSobreMim {
+        font-size: 18px;
+        color: var(--primary);
+    }
+
+    .textoSobreMim {
+        text-align: justify;
+        font-size: 14px;
+    }
+}
+
 /* -----------------------------------------------section HABILIDADES------------------------------------------------ */
-.sectionHabilidades{
+.sectionHabilidades {
     gap: 20px;
     display: flex;
     align-items: center;
@@ -137,11 +191,13 @@
     width: 100%;
     height: 400px;
 }
-.habilidades{
+
+.habilidades {
     color: var(--primary);
     font-size: 20px;
 }
-.habilidadesImg{
+
+.habilidadesImg {
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
@@ -149,27 +205,26 @@
     width: 70%;
     height: 16vw;
 }
-.hab{
+
+.hab {
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 20%;
     height: 100%;
 }
-.pImg{
-    font-size: 16px;
-    color: var(--text);
-}
-.html{
+
+.html {
     background-image: url("../assets/html\ img.png");
     background-repeat: no-repeat;
     background-size: 137px;
     background-position: -7px -10px;
     width: 125%;
     height: 45%;
-    
+
 }
-.css{
+
+.css {
     background-image: url("../assets/css\ img.png");
     background-repeat: no-repeat;
     background-size: 137px;
@@ -177,7 +232,8 @@
     width: 125%;
     height: 45%;
 }
-.js{
+
+.js {
     background-image: url("../assets/js\ img.png");
     background-repeat: no-repeat;
     background-size: 137px;
@@ -185,7 +241,8 @@
     width: 125%;
     height: 45%;
 }
-.java{
+
+.java {
     background-image: url("../assets/java\ img.png");
     background-repeat: no-repeat;
     background-size: 137px;
@@ -193,7 +250,8 @@
     width: 125%;
     height: 45%;
 }
-.postman{
+
+.postman {
     background-image: url("../assets/postman.png");
     background-repeat: no-repeat;
     background-size: 74px;
@@ -201,7 +259,8 @@
     width: 125%;
     height: 45%;
 }
-.node{
+
+.node {
     background-image: url("../assets/node\ img.png");
     background-repeat: no-repeat;
     background-size: 113px;
@@ -209,7 +268,8 @@
     width: 125%;
     height: 45%;
 }
-.docker{
+
+.docker {
     background-image: url("../assets/docker.png");
     background-repeat: no-repeat;
     background-size: 122px;
@@ -217,7 +277,8 @@
     width: 125%;
     height: 45%;
 }
-.figma{
+
+.figma {
     background-image: url("../assets/figma\ img.png");
     background-repeat: no-repeat;
     background-size: 137px;
@@ -225,7 +286,8 @@
     width: 125%;
     height: 45%;
 }
-.bootstrap{
+
+.bootstrap {
     background-image: url("../assets/bootstrap\ img.png");
     background-repeat: no-repeat;
     background-size: 109px;
@@ -233,7 +295,8 @@
     width: 125%;
     height: 45%;
 }
-.dbeaver{
+
+.dbeaver {
     background-image: url("../assets/dbeaver\ img.png");
     background-repeat: no-repeat;
     background-size: 137px;
@@ -241,7 +304,8 @@
     width: 125%;
     height: 45%;
 }
-.react{
+
+.react {
     background-image: url("../assets/react\ img.png");
     background-repeat: no-repeat;
     background-size: 137px;
@@ -250,23 +314,89 @@
     height: 45%;
 }
 
-.estrelas{
-    color: var(--secondary);
-    font-size: 15px;
+@media (max-width: 320px) {
+    .sectionHabilidades {
+        height: 960px;
+    }
+    .habilidadesImg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 70%;
+        height: 800px;
+    }
+    .habilidades {
+        font-size: 18px;
+    }
+    .hab {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 200%;
+        height: 100%;
+    }
+    .html {
+        width: 77%;
+        height: 2000px;
+    }
+    .css {
+        width: 77%;
+        height: 2000px;
+    }
+    .js {
+        width: 77%;
+        height: 2000px;
+    }
+    .java {
+        width: 77%;
+        height: 2000px;
+    }
+    .postman {
+        width: 77%;
+        height: 2000px;
+    }
+    .node {
+        width: 77%;
+        height: 2000px;
+    }
+    .docker {
+        width: 77%;
+        height: 2000px;
+    }
+    .figma {
+        width: 77%;
+        height: 2000px;
+    }
+    .bootstrap {
+        width: 77%;
+        height: 2000px;
+    }
+    .dbeaver {
+        width: 77%;
+        height: 2000px;
+    }
+    .react {
+        width: 77%;
+        height: 2000px;
+    }
 }
+
 /* -----------------------------------------------section CONTATOS------------------------------------------------ */
-.sectionContato{
+.sectionContato {
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 100%;
     height: 26vw;
 }
-.contato{
+
+.contato {
     color: var(--primary);
     font-size: 20px;
 }
-.contatoImg{
+
+.contatoImg {
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
@@ -274,76 +404,184 @@
     width: 80%;
     height: 16vw;
 }
-.ctt{
+
+.ctt {
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 20%;
     height: 100%;
 }
-.pImgCtt{
+
+.pImgCtt {
     font-size: 20px;
     color: var(--text);
 }
-.email{
-    font-size: 13px;
-    color: var(--text);
-}
-.telefone{
-    font-size: 13px;
-    color: var(--text);
-}
-.link{
-    font-size: 13px;
-    color: var(--text);
-}
-.git{
+
+.email {
     font-size: 13px;
     color: var(--text);
 }
 
-/* -----------------------------------------------section CONTATOS------------------------------------------------ */
+.telefone {
+    font-size: 13px;
+    color: var(--text);
+}
 
+.link {
+    font-size: 13px;
+    color: var(--text);
+}
+
+.git {
+    font-size: 13px;
+    color: var(--text);
+}
+
+@media (max-width: 320px) {
+    .sectionContato {
+        height: 800px;
+    }
+    .contato {
+        color: var(--primary);
+        font-size: 18px;
+    }
+    .contatoImg {
+        gap: 120px;
+        align-items: center;
+        flex-direction: column;
+    }
+    .pImgCtt {
+        font-size: 14px;
+    }
+    .email {
+        font-size: 12px;
+    }
+    .telefone {
+        width: 101px;
+        font-size: 12px;
+    }
+    .link {
+        font-size: 12px;
+    }
+    .git {
+        font-size: 12px;
+    }
+}
+
+/* -----------------------------------------------section PROJETOS------------------------------------------------ */
 .galeria {
+    width: 100%;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 60px;
 }
+
+.projetos {
+    font-size: 20px;
+    color: var(--primary);
+}
+
 .fileira {
     display: flex;
     justify-content: center;
     gap: 10px;
 }
-.item img {
-    width: 150px;
-    height: 100px;
-    cursor: pointer;
-}
-.modal {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.7);
+
+.item{
+    display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
-.modal-content {
-    background: white;
-    padding: 20px;
-    text-align: center;
-    position: relative;
-}
-.fechar {
-    position: absolute;
-    top: 10px;
-    right: 10px;
+
+.item img {
+    width: 350px;
+    height: 200px;
     cursor: pointer;
-    font-size: 20px;
 }
-video {
-    width: 100%;
-    max-width: 500px;
+
+.item p {
+    width: 350px;
+    font-size: 16px;
+    color: var(--text);
+}
+
+.button {
+    padding: 10px 20px;
+    border-color: #23007400;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: var(--secondary);
+    color: var(--text);
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+
+@media (max-width: 320px) {
+    .galeria {
+        width: 100%;
+        height: 1700px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+    .fileira {
+        gap: 60px;
+        flex-direction: column;
+    }
+    .item img {
+        width: 240px;
+        height: 150px;
+    }
+    .item p {
+        width: 240px;
+        font-size: 14px;
+        color: var(--text);
+    }
+    .button {
+        padding: 7px 16px;
+        border-color: #23007400;
+        cursor: pointer;
+        font-size: 12px;
+        background-color: var(--secondary);
+        color: var(--text);
+        border-radius: 15px;
+        text-decoration: none;
+    }
+}
+/* -----------------------------------------------section CERTIFICADOS------------------------------------------------ */
+
+.certificados {
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.certificado {
+    font-size: 20px;
+    color: var(--primary);
+}
+
+@media (max-width: 320px) {
+    .certificados {
+        height: 1000px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+    .certificado {
+        font-size: 18px;
+    }
 }

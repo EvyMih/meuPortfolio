@@ -88,3 +88,33 @@ header{
     align-items: center;
     justify-content: space-between;
 }
+/* -----------------------------------------------Footer-------------------------------------------------------- */
+.meuFooter {
+    background-color: var(--background);
+    border-top: solid 1px var(--primary);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+}
+
+@media (max-width: 320px) {
+    .dropmenu > li > a {
+        font-size: 14px;
+    }
+    .ulLista li a {
+        font-size: 14px;
+    }
+    .ulLista {
+        width: 130px;
+    }
+    .portfolio{
+        display: none;
+    }
+    .modeSite{
+        margin-right: 80px;
+    }
+    .meuFooter {
+        font-size: 12px;
+    }
+}
