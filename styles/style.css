@@ -1,0 +1,349 @@
+/* -----------------------------------------------section SOBRE MIM------------------------------------------------ */
+.sectionSobreMim{
+    padding: 0px 190px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30vw;
+}
+.minhaFoto{
+    margin-left: 3vw;
+    background-image: url("../assets/img\ evy.png");
+    background-repeat: no-repeat;
+    background-size: 375px;
+    background-position: -6px -74px;
+    border-radius: 100%;
+    width: 20%;
+    height: 15vw;
+}
+.maisInfo{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 8vw;
+}
+.apresentacao{
+    display: flex ;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.meuNome{
+
+    height: 6vw;
+}
+.descricao{
+    font-size: 25px;
+    color: var(--text);
+}
+.descricao::after{
+    content: ":)";
+    margin-left: 6px;
+}
+.descricao.sem-after::after{
+    content: "";
+}
+.nome{
+
+    font-size: 30px;
+    color: var(--primary);
+}
+.nome::after{
+    content: ":)";
+    margin-left: 10px;
+}
+
+.profissao{
+    margin-top: 20px;
+    color: var(--text);
+
+    height: 1.5vw;
+}
+.baixarCV{
+
+    height: 4vw;
+}
+.botaoBaixarCV{
+    border-color: #23007400;
+    cursor: pointer;
+    font-size: 17px;
+    background-color: var(--secondary);
+    color: var(--text);
+    border-radius: 15px;
+    width: 90%;
+    height: 90%;
+}
+.botaoBaixarCV:hover{
+    background-color: var(--secondary-hover);
+}
+
+@media (max-width: 1920px) {
+
+    .minhaFoto {
+        background-size: 270px;
+        background-position: -8px -47px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .minhaFoto {
+        width: 60%;
+    }
+
+    .descricao, .nome {
+        font-size: 20px;
+    }
+
+    .botaoBaixarCV {
+        font-size: 14px;
+    }
+}
+
+/* -----------------------------------------------section SOBRE MIM PARTE 2------------------------------------------------ */
+.sectionSobreMim2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 30vw;
+}
+.sobreMim{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    width: 70%;
+    height: 19vw;
+}
+.tituloSobreMim{
+    font-size: 22px;
+    color: var(--primary);
+}
+.textoSobreMim{
+    margin-top: 30px;
+    text-align: justify;
+    font-size: 16px;
+    color: var(--text);
+    width: 90%;
+    height: 16vw;
+}
+/* -----------------------------------------------section HABILIDADES------------------------------------------------ */
+.sectionHabilidades{
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+}
+.habilidades{
+    color: var(--primary);
+    font-size: 20px;
+}
+.habilidadesImg{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 70%;
+    height: 16vw;
+}
+.hab{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+}
+.pImg{
+    font-size: 16px;
+    color: var(--text);
+}
+.html{
+    background-image: url("../assets/html\ img.png");
+    background-repeat: no-repeat;
+    background-size: 137px;
+    background-position: -7px -10px;
+    width: 125%;
+    height: 45%;
+    
+}
+.css{
+    background-image: url("../assets/css\ img.png");
+    background-repeat: no-repeat;
+    background-size: 137px;
+    background-position: -7px -10px;
+    width: 125%;
+    height: 45%;
+}
+.js{
+    background-image: url("../assets/js\ img.png");
+    background-repeat: no-repeat;
+    background-size: 137px;
+    background-position: -7px -10px;
+    width: 125%;
+    height: 45%;
+}
+.java{
+    background-image: url("../assets/java\ img.png");
+    background-repeat: no-repeat;
+    background-size: 137px;
+    background-position: -7px -10px;
+    width: 125%;
+    height: 45%;
+}
+.postman{
+    background-image: url("../assets/postman.png");
+    background-repeat: no-repeat;
+    background-size: 74px;
+    background-position: 22px -7px;
+    width: 125%;
+    height: 45%;
+}
+.node{
+    background-image: url("../assets/node\ img.png");
+    background-repeat: no-repeat;
+    background-size: 113px;
+    background-position: 8px -10px;
+    width: 125%;
+    height: 45%;
+}
+.docker{
+    background-image: url("../assets/docker.png");
+    background-repeat: no-repeat;
+    background-size: 122px;
+    background-position: 2px -10px;
+    width: 125%;
+    height: 45%;
+}
+.figma{
+    background-image: url("../assets/figma\ img.png");
+    background-repeat: no-repeat;
+    background-size: 137px;
+    background-position: -7px -10px;
+    width: 125%;
+    height: 45%;
+}
+.bootstrap{
+    background-image: url("../assets/bootstrap\ img.png");
+    background-repeat: no-repeat;
+    background-size: 109px;
+    background-position: 10px -10px;
+    width: 125%;
+    height: 45%;
+}
+.dbeaver{
+    background-image: url("../assets/dbeaver\ img.png");
+    background-repeat: no-repeat;
+    background-size: 137px;
+    background-position: -7px -10px;
+    width: 125%;
+    height: 45%;
+}
+.react{
+    background-image: url("../assets/react\ img.png");
+    background-repeat: no-repeat;
+    background-size: 137px;
+    background-position: -7px -10px;
+    width: 125%;
+    height: 45%;
+}
+
+.estrelas{
+    color: var(--secondary);
+    font-size: 15px;
+}
+/* -----------------------------------------------section CONTATOS------------------------------------------------ */
+.sectionContato{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 26vw;
+}
+.contato{
+    color: var(--primary);
+    font-size: 20px;
+}
+.contatoImg{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 80%;
+    height: 16vw;
+}
+.ctt{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+}
+.pImgCtt{
+    font-size: 20px;
+    color: var(--text);
+}
+.email{
+    font-size: 13px;
+    color: var(--text);
+}
+.telefone{
+    font-size: 13px;
+    color: var(--text);
+}
+.link{
+    font-size: 13px;
+    color: var(--text);
+}
+.git{
+    font-size: 13px;
+    color: var(--text);
+}
+
+/* -----------------------------------------------section CONTATOS------------------------------------------------ */
+
+.galeria {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.fileira {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.item img {
+    width: 150px;
+    height: 100px;
+    cursor: pointer;
+}
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+.modal-content {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+.fechar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+video {
+    width: 100%;
+    max-width: 500px;
+}

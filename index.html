@@ -1,136 +1,201 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meu portfolio atualizado 2025" />
+
+    <link rel="icon" type="image/x-icon" href="">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/global.css">
+
     <title>Meu Portfólio</title>
-    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet" />
+
 </head>
+
 <body>
-
-    <header>
-        <div class="menu1">
-            <ul class="dropmenu">
-                <li class="lista1"><a>Menu</a>
-                    <ul class="ulLista">
-                        <li><a href="#">Sobre Mim</a></li>
-                        <li><a href="#">Habilidades</a></li>
-                        <li><a href="#">Contato</a></li>
-                        <li><a href="#">Projetos</a></li>
-                        <li><a href="#">Certificações</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-
-        <div class="portfolio">Portfólio</div>
-
-        <div class="modeSite">#</div>
-    </header>
-    <hr>
-
-    <section class="sectionSobreMim">
-        <!-- Section SOBRE MIM -->
-
-        <div class="minhaFoto"></div>
-
-        <div class="apresentacao">
-            <div class="meuNome">
-                <span id="descricao" class="descricao">Olá, eu sou a </span>
-                <span id="nome" class="nome">Evellyn Miranda</span>
+    <main>
+        <header>
+            <div class="menu1">
+                <ul class="dropmenu">
+                    <li class="lista1"><a>Menu</a>
+                        <ul class="ulLista">
+                            <li><a href="#sectionSobreMim">Sobre mim</a></li>
+                            <li><a href="#habilidades">Habilidades</a></li>
+                            <li><a href="#contato">Contato</a></li>
+                            <li><a href="#">Projetos</a></li>
+                            <li><a href="#">Certificações</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
 
-            <div class="maisInfo">
-                <div id ="profissao" class="profissao">Desenvolvedora júnior</div>
+            <div class="portfolio">Portfólio</div>
 
-                <div class="baixarCV">
-                    <button class="botaoBaixarCV">Baixar CV</button>
+            <div class="modeSite">#</div>
+        </header>
+
+        <section id="sectionSobreMim" class="sectionSobreMim">
+            <!-- Section SOBRE MIM -->
+
+            <div class="minhaFoto"></div>
+
+            <div class="apresentacao">
+                <div class="meuNome">
+                    <span id="descricao" class="descricao">Olá, eu sou a </span>
+                    <span id="nome" class="nome">Evellyn Miranda</span>
+                </div>
+
+                <div class="maisInfo">
+                    <div id="profissao" class="profissao">Desenvolvedora e Desing júnior</div>
+
+                    <div class="baixarCV">
+                        <a href="caminho/do/arquivo.pdf" download class="botaoBaixarCV"><a href="caminho/do/arquivo.pdf" download>
+                            <button class="botaoBaixarCV">Baixar CV</button>
+                        </a></a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="sectionSobreMim2">
-        <!-- Section SOBRE MIM PARTE 2 -->
-        <div class="sobreMim">
-            <div class="tituloSobreMim">Sobre Mim</div>
+        <section id="habilidades" class="sectionSobreMim2">
+            <!-- Section SOBRE MIM PARTE 2 -->
+            <div class="sobreMim">
+                <div class="tituloSobreMim">Sobre Mim</div>
 
-            <div class="textoSobreMim">
-                Com apenas 18 anos e uma paixão por programação, já construí um portfólio com projetos que demonstram minhas habilidades em HTML, CSS e JavaScript. Minha jornada na programação começou aos 16 anos, e desde então, tenho me dedicado a aprimorar meus conhecimentos. Atualmente, curso Análise e Desenvolvimento de Sistemas, o que me proporciona uma base sólida em teoria e prática.
-                <br><br>
-                Sou uma desenvolvedora autodidata e adaptável, sempre disposta a aprender novas tecnologias. Minha experiência prática, me permite entregar projetos de qualidade e me adaptar rapidamente a diferentes ambientes de trabalho.
-                <br><br>
-                Busco agora uma oportunidade para aplicar meus conhecimentos em uma empresa inovadora, onde possa contribuir para o desenvolvimento de programas que façam a diferença. Acredito que minha habilidade de aprender rápido, minha paixão pela tecnologia e minha dedicação me tornam uma profissional valiosa para qualquer equipe.
-            </div>
-        </div>
-    </section>
-
-    <section class="habilidadesSection">
-        <!-- Section HABILIDADES -->
-        <div class="sectionHabilidades">
-            <div class="habilidades">Habilidades</div>
-
-            <div class="habilidadesImg">
-                <div class="hab" id="hab">
-                    <p class="pImg">HTML</p>
-                    <div class="html"></div>
-                    <div class="estrelas">&starf; &starf; &starf; &starf; &star;</div> 
-                </div>
-                <div class="hab" id="hab">
-                    <p class="pImg">CSS</p>
-                    <div class="css"></div>
-                    <div class="estrelas">&starf; &starf; &starf; &starf; &star;</div> 
-                </div>
-                <div class="hab" id="hab">
-                    <p class="pImg">JavaScript</p>
-                    <div class="js"></div>
-                    <div class="estrelas">&starf; &starf; &starf; &star; &star;</div> 
-                </div>
-                <div class="hab" id="hab">
-                    <p class="pImg">Java</p>
-                    <div class="java"></div>
-                    <div class="estrelas">&starf; &starf; &star; &star; &star;</div> 
+                <div class="textoSobreMim">
+                    Com apenas 18 anos e uma paixão por programação, já construí um portfólio com projetos que
+                    demonstram minhas habilidades em HTML, CSS e JavaScript. Minha jornada na programação começou aos 16
+                    anos, e desde então, tenho me dedicado a aprimorar meus conhecimentos. Atualmente, curso Análise e
+                    Desenvolvimento de Sistemas, o que me proporciona uma base sólida em teoria e prática.
+                    <br><br>
+                    Sou uma desenvolvedora autodidata e adaptável, sempre disposta a aprender novas tecnologias. Minha
+                    experiência prática, me permite entregar projetos de qualidade e me adaptar rapidamente a diferentes
+                    ambientes de trabalho.
+                    <br><br>
+                    Busco agora uma oportunidade para aplicar meus conhecimentos em uma empresa inovadora, onde possa
+                    contribuir para o desenvolvimento de programas que façam a diferença. Acredito que minha habilidade
+                    de aprender rápido, minha paixão pela tecnologia e minha dedicação me tornam uma profissional
+                    valiosa para qualquer equipe.
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="contatoSection">
-        <!-- Section CONTATOS -->
-         <div class="sectionContato">
-            <div class="contato">Contatos</div>
+        <section  class="habilidadesSection">
+            <!-- Section HABILIDADES -->
+            <div class="sectionHabilidades">
+                <div class="habilidades">Habilidades</div>
 
-            <div class="contatoImg">
-                <div class="ctt" id="ctt">
-                    <div class="imgEmail"></div>
-                    <p class="pImgCtt">Email</p>
-                    <div class="email">evellynkoster@gmail.com</div>
-                </div>
-                <div class="ctt" id="ctt">
-                    <div class="imgTelefone"></div>
-                    <p class="pImgCtt">Telefone</p>
-                    <div class="telefone">(64) 99904-3891</div>
-                </div>
-                <div class="ctt" id="ctt">
-                    <div class="imgLink"></div>
-                    <p class="pImgCtt">LinkedIn</p>
-                    <div class="link">evellynmiranda</div>
-                </div>
-                <div class="ctt" id="ctt">
-                    <div class="imgGit"></div>
-                    <p class="pImgCtt">GitHub</p>
-                    <div class="git">@EvyMih</div>
+                <div class="habilidadesImg">
+                    <div class="hab" id="hab">
+                        <div class="html"></div>
+                    </div>
+                    <div class="hab" id="hab">
+                        <div class="css"></div>
+                    </div>
+                    <div class="hab" id="hab">
+                        <div class="js"></div>
+                    </div>
+                    <div class="hab" id="hab">
+                        <div class="java"></div>
+                    </div>
+                    <div class="hab" id="hab">
+                        <div class="postman"></div>
+                    </div>
+                    <br><br>
+                    <div class="hab" id="hab">
+                        <div class="node"></div>
+                    </div>
+                    <div class="hab" id="hab">
+                        <div class="docker"></div>
+                    </div>
+                    <div class="hab" id="hab">
+                        <div class="figma"></div>
+                    </div>
+                    <div class="hab" id="hab">
+                        <div class="bootstrap"></div>
+                    </div>
+                    <div class="hab" id="hab">
+                        <div class="react"></div>
+                    </div>
                 </div>
             </div>
-         </div>
-    </section>
+        </section>
 
-    <footer>
+        <section id="contato" class="contatoSection">
+            <!-- Section CONTATOS -->
+            <div class="sectionContato">
+                <div class="contato">Contatos</div>
 
-    </footer>
+                <div class="contatoImg">
+                    <div class="ctt" id="ctt">
+                        <i class="ph ph-envelope-simple" style="color: var(--primary); font-size: 40px;"></i>
+                        <p class="pImgCtt">Email</p>
+                        <div class="email">evellynkoster@gmail.com</div>
+                    </div>
+                    <div class="ctt" id="ctt">
+                        <i class="ph ph-whatsapp-logo" style="color: var(--primary); font-size: 40px;"></i>
+                        <p class="pImgCtt">Telefone</p>
+                        <div class="telefone">(64) 99904-3891</div>
+                    </div>
+                    <div class="ctt" id="ctt">
+                        <i class="ph ph-linkedin-logo" style="color: var(--primary); font-size: 40px;"></i>
+                        <p class="pImgCtt">LinkedIn</p>
+                        <div class="link">evellynmiranda</div>
+                    </div>
+                    <div class="ctt" id="ctt">
+                        <i class="ph ph-github-logo" style="color: var(--primary); font-size: 40px;"></i>
+                        <p class="pImgCtt">GitHub</p>
+                        <div class="git">@EvyMih</div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <section class="galeria">
+            <div class="fileira">
+                <div class="item" onclick="abrirModal(1)">
+                    <img src="img1.jpg" alt="Imagem 1">
+                    <p>Legenda 1</p>
+                    <button class="button">Veja o site</button>
+                </div>
+                <div class="item" onclick="abrirModal(2)">
+                    <img src="img2.jpg" alt="Imagem 2">
+                    <p>Legenda 2</p>
+                    <button class="button">Veja o site</button>
+                </div>
+                <div class="item" onclick="abrirModal(3)">
+                    <img src="img3.jpg" alt="Imagem 3">
+                    <p>Legenda 3</p>
+                    <button class="button">veja o site</button>
+                </div>
+                <div class="item" onclick="abrirModal(4)">
+                    <img src="img4.jpg" alt="Imagem 4">
+                    <p>Legenda 4</p>
+                    <button class="button">Acesse o figma</button>
+                </div>
+                <div class="item" onclick="abrirModal(5)">
+                    <img src="img5.jpg" alt="Imagem 5">
+                    <p>Legenda 5</p>
+                    <button class="button">Acesse o figma</button>
+                </div>
+            </div>
+        </section>
 
+        <footer>
 
-    <script src="script.js"></script>
+        </footer>
+
+        <script src="script.js"></script>
 </body>
+
 </html>
+</main>
